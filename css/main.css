@@ -1607,6 +1607,17 @@ a {
     footer .foot a {
         color: var(--main-color);
     }
+    @media (max-width: 767px) {
+        footer .foot {
+            flex-direction: column;
+        }
+        footer .foot p:first-child {
+            margin-bottom: 20px;
+        }
+        footer .cards {
+            margin-bottom: 100px;
+        }
+    }
     /* End footer */
     /* Start Animations */
     @keyframes landing-image {
